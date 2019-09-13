@@ -6,6 +6,9 @@
 import tensorflow as tf
 import numpy as np
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
 # First we set up the computational graph:
 
 # N is batch size; D_in is input dimension;
